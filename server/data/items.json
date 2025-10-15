@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1001,
+    "name": "Stahl-Schwert",
+    "rarity": "common",
+    "level": 10,
+    "attack": 42
+  },
+  {
+    "id": 1020,
+    "name": "Runen-Bogen",
+    "rarity": "rare",
+    "level": 25,
+    "attack": 68
+  }
+]

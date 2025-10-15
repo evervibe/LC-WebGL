@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3001,
+    "title": "Erstes Training",
+    "steps": ["Sprich mit Armin", "Besiege 5 Kobolde"],
+    "reward": { "exp": 500, "gold": 200 }
+  },
+  {
+    "id": 3005,
+    "title": "Rune der Wächter",
+    "steps": ["Sammle 3 Runensteine", "Sprich mit Lira"],
+    "reward": { "exp": 2500, "gold": 1000, "itemId": 1020 }
+  }
+]

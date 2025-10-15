@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "blenderPath": "/Applications/Blender.app/Contents/MacOS/Blender",
+    "gltfTransform": "gltf-transform",
+    "toktx": "toktx"
+  },
+  "options": {
+    "draco": true,
+    "ktx2": false
+  },
+  "jobs": [
+    {
+      "type": "fbx",
+      "input": "../legacy-assets/sample-map.fbx",
+      "targetId": "map-sample"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "viewer-calibration",
+    "title": "Viewer Calibration Mesh",
+    "description": "Kalibrierungsszene zur Kontrolle des Renderers und Orbit-Steuerung.",
+    "assetPath": "/assets/sample-triangle/scene.gltf",
+    "version": "1.0.0-alpha",
+    "tags": ["calibration", "internal"],
+    "center": [0.4, 0.4, 0],
+    "orbitDistance": 2.5
+  },
+  {
+    "id": "teleport-ui",
+    "title": "Teleport Interface Layout",
+    "description": "UI-Layout basierend auf Teleport.xml aus dem Legacy-Client.",
+    "assetPath": "/assets/sample-quad/scene.gltf",
+    "version": "1.0.0-alpha",
+    "tags": ["ui", "teleport", "legacy"],
+    "center": [0, 0, 0],
+    "orbitDistance": 3.2,
+    "relatedWindows": ["teleport"]
+  },
+  {
+    "id": "affinity-ui",
+    "title": "Affinity Window Overview",
+    "description": "UI-Layout basierend auf AffinityInfo.xml (z. B. Reputation-Anzeige).",
+    "assetPath": "/assets/sample-quad/scene.gltf",
+    "version": "1.0.0-alpha",
+    "tags": ["ui", "affinity", "legacy"],
+    "center": [0, 0, 0],
+    "orbitDistance": 3.2,
+    "relatedWindows": ["affiniti_info"]
+  }
+]

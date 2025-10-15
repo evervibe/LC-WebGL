@@ -1,0 +1,3098 @@
+{
+  "generatedAt": "2025-10-15T20:50:57.787Z",
+  "source": "Legacy Client XML",
+  "totalWindows": 27,
+  "windows": [
+    {
+      "id": "affiniti_info",
+      "file": "AffinityInfo.xml",
+      "size": {
+        "w": 512,
+        "h": 427
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 6,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 4,
+          "samples": [
+            {
+              "id": "btn_item",
+              "desc": "아이템",
+              "size": {
+                "x": 292,
+                "y": 210,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_quest",
+              "desc": "퀘스트",
+              "size": {
+                "x": 362,
+                "y": 210,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_monster",
+              "desc": "몬스터",
+              "size": {
+                "x": 432,
+                "y": 210,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 490,
+                "y": 4,
+                "w": 16,
+                "h": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 2,
+          "samples": [
+            {
+              "id": "img_back",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 427
+              }
+            },
+            {
+              "id": "img_map",
+              "desc": "",
+              "size": {
+                "x": 127,
+                "y": 64,
+                "w": 140,
+                "h": 82
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auction",
+      "file": "Auction.xml",
+      "size": {
+        "w": 750,
+        "h": 550
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 20,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 15,
+          "samples": [
+            {
+              "id": "btn_first",
+              "desc": "",
+              "size": {
+                "x": 252,
+                "y": 480,
+                "w": 17,
+                "h": 19
+              }
+            },
+            {
+              "id": "btn_prev",
+              "desc": "",
+              "size": {
+                "x": 274,
+                "y": 480,
+                "w": 11,
+                "h": 19
+              }
+            },
+            {
+              "id": "btn_next",
+              "desc": "",
+              "size": {
+                "x": 372,
+                "y": 480,
+                "w": 11,
+                "h": 19
+              }
+            },
+            {
+              "id": "btn_last",
+              "desc": "",
+              "size": {
+                "x": 388,
+                "y": 480,
+                "w": 17,
+                "h": 19
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIComboBox",
+          "count": 3,
+          "samples": [
+            {
+              "id": "cbb_item_type",
+              "desc": "",
+              "size": {
+                "x": 11,
+                "y": 65,
+                "w": 105,
+                "h": 16
+              }
+            },
+            {
+              "id": "cbb_sub_type",
+              "desc": "",
+              "size": {
+                "x": 112,
+                "y": 65,
+                "w": 141,
+                "h": 16
+              }
+            },
+            {
+              "id": "cbb_class",
+              "desc": "",
+              "size": {
+                "x": 269,
+                "y": 65,
+                "w": 141,
+                "h": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 1,
+          "samples": [
+            {
+              "id": "img_back",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 550
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 1,
+          "samples": [
+            {
+              "id": "edit_search",
+              "desc": "",
+              "size": {
+                "x": 521,
+                "y": 65,
+                "w": 126,
+                "h": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autohelp",
+      "file": "AutoHelp.xml",
+      "size": {
+        "w": 112,
+        "h": 131
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 4,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 4,
+          "samples": [
+            {
+              "id": "notice_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 119,
+                "w": 32,
+                "h": 19
+              }
+            },
+            {
+              "id": "notice_m",
+              "desc": "",
+              "size": {
+                "x": 32,
+                "y": 119,
+                "w": 7,
+                "h": 19
+              }
+            },
+            {
+              "id": "notice_r",
+              "desc": "",
+              "size": {
+                "x": 39,
+                "y": 119,
+                "w": 32,
+                "h": 19
+              }
+            },
+            {
+              "id": "classification",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 131
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BingoBox",
+      "file": "BingoBox.xml",
+      "size": {
+        "w": 254,
+        "h": 165
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 18,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 17,
+          "samples": [
+            {
+              "id": "img_item_gap_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 22,
+                "w": 10,
+                "h": 26
+              }
+            },
+            {
+              "id": "img_item_gap_m",
+              "desc": "",
+              "size": {
+                "x": 10,
+                "y": 22,
+                "w": 124,
+                "h": 26
+              }
+            },
+            {
+              "id": "img_item_gap_r",
+              "desc": "",
+              "size": {
+                "x": 134,
+                "y": 22,
+                "w": 10,
+                "h": 26
+              }
+            },
+            {
+              "id": "img_title_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 1,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 114,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buff",
+      "file": "Buff.xml",
+      "size": {
+        "w": 0,
+        "h": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 13,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 13,
+          "samples": [
+            {
+              "id": "img_outline_big_good",
+              "desc": "",
+              "size": {
+                "x": 50,
+                "y": 0,
+                "w": 22,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_outline_small_good",
+              "desc": "",
+              "size": {
+                "x": 72,
+                "y": 0,
+                "w": 22,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_outline_big_bad",
+              "desc": "",
+              "size": {
+                "x": 50,
+                "y": 22,
+                "w": 22,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_outline_small_bad",
+              "desc": "",
+              "size": {
+                "x": 72,
+                "y": 22,
+                "w": 22,
+                "h": 22
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "change_weapon",
+      "file": "ChangeWeapon.xml",
+      "size": {
+        "w": 216,
+        "h": 400
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 19,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 13,
+          "samples": [
+            {
+              "id": "img_back_top",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 26
+              }
+            },
+            {
+              "id": "img_back_mid0",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 26,
+                "w": 216,
+                "h": 103
+              }
+            },
+            {
+              "id": "img_back_mid1",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 129,
+                "w": 216,
+                "h": 11
+              }
+            },
+            {
+              "id": "img_back_mid2",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 140,
+                "w": 216,
+                "h": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 2,
+          "samples": [
+            {
+              "id": "btn_ok",
+              "desc": "확인",
+              "size": {
+                "x": 78,
+                "y": 371,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 146,
+                "y": 371,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 2,
+          "samples": [
+            {
+              "id": "lb_weapon_desc",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 263,
+                "w": 193,
+                "h": 101
+              }
+            },
+            {
+              "id": "lb_weapon_list",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 158,
+                "w": 193,
+                "h": 101
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 2,
+          "samples": [
+            {
+              "id": "lb_weapon_scroll",
+              "desc": "",
+              "size": {
+                "x": 190,
+                "y": 263,
+                "w": 9,
+                "h": 101
+              }
+            },
+            {
+              "id": "lb_weapon_scroll",
+              "desc": "",
+              "size": {
+                "x": 190,
+                "y": 158,
+                "w": 9,
+                "h": 101
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Character Server Move",
+      "file": "CharServerMove.xml",
+      "size": {
+        "w": 216,
+        "h": 267
+      },
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "controlTotal": 13,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 7,
+          "samples": [
+            {
+              "id": "img_back_title",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_back_mid",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 22,
+                "w": 216,
+                "h": 230
+              }
+            },
+            {
+              "id": "img_linebox_top",
+              "desc": "",
+              "size": {
+                "x": 4,
+                "y": 24,
+                "w": 210,
+                "h": 2
+              }
+            },
+            {
+              "id": "img_linebox_mid",
+              "desc": "",
+              "size": {
+                "x": 4,
+                "y": 24,
+                "w": 210,
+                "h": 190
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 2,
+          "samples": [
+            {
+              "id": "lb_sel_content",
+              "desc": "",
+              "size": {
+                "x": 4,
+                "y": 57,
+                "w": 195,
+                "h": 157
+              }
+            },
+            {
+              "id": "lb_once_content",
+              "desc": "",
+              "size": {
+                "x": 4,
+                "y": 57,
+                "w": 195,
+                "h": 157
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 2,
+          "samples": [
+            {
+              "id": "sb_sel_content",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 157
+              }
+            },
+            {
+              "id": "sb_once_content",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 157
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 2,
+          "samples": [
+            {
+              "id": "btn_ok",
+              "desc": "확인",
+              "size": {
+                "x": 98,
+                "y": 231,
+                "w": 53,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 156,
+                "y": 231,
+                "w": 53,
+                "h": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character_info",
+      "file": "CharacterInfo.xml",
+      "size": {
+        "w": 512,
+        "h": 341
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 11,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 11,
+          "samples": [
+            {
+              "id": "img_back",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 341
+              }
+            },
+            {
+              "id": "img_skill_info",
+              "desc": "",
+              "size": {
+                "x": 28,
+                "y": 37,
+                "w": 506,
+                "h": 330
+              }
+            },
+            {
+              "id": "img_sel_outline_top_l",
+              "desc": "",
+              "size": {
+                "x": 40,
+                "y": 405,
+                "w": 13,
+                "h": 12
+              }
+            },
+            {
+              "id": "img_sel_outline_top_m",
+              "desc": "",
+              "size": {
+                "x": 53,
+                "y": 405,
+                "w": 195,
+                "h": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collectbox",
+      "file": "CollectBox.xml",
+      "size": {
+        "w": 184,
+        "h": 194
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 27,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 25,
+          "samples": [
+            {
+              "id": "img_title",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 21
+              }
+            },
+            {
+              "id": "img_title_m",
+              "desc": "",
+              "size": {
+                "x": 22,
+                "y": 0,
+                "w": 29,
+                "h": 21
+              }
+            },
+            {
+              "id": "img_title_r",
+              "desc": "",
+              "size": {
+                "x": 198,
+                "y": 0,
+                "w": 17,
+                "h": 21
+              }
+            },
+            {
+              "id": "img_item_slot_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 119,
+                "w": 21,
+                "h": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 1,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 153,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "lb_item_info",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compound",
+      "file": "Compound.xml",
+      "size": {
+        "w": 216,
+        "h": 190
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 17,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 14,
+          "samples": [
+            {
+              "id": "img_title",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_back_m1",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 31,
+                "w": 216,
+                "h": 2
+              }
+            },
+            {
+              "id": "img_back_m2",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 35,
+                "w": 216,
+                "h": 2
+              }
+            },
+            {
+              "id": "img_back_b",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 38,
+                "w": 216,
+                "h": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 3,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 184,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_ok",
+              "desc": "확인",
+              "size": {
+                "x": 36,
+                "y": 154,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 117,
+                "y": 154,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CreateCharacter",
+      "file": "CreateCharacter.xml",
+      "size": {
+        "w": 255,
+        "h": 83
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 18,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 14,
+          "samples": [
+            {
+              "id": "btn_ok",
+              "desc": "결정",
+              "size": {
+                "x": 117,
+                "y": 360,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 184,
+                "y": 360,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_zoomin",
+              "desc": "",
+              "size": {
+                "x": 50,
+                "y": 0,
+                "w": 38,
+                "h": 37
+              }
+            },
+            {
+              "id": "btn_zoomout",
+              "desc": "",
+              "size": {
+                "x": 50,
+                "y": 50,
+                "w": 38,
+                "h": 37
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 2,
+          "samples": [
+            {
+              "id": "img_back_top",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 255,
+                "h": 386
+              }
+            },
+            {
+              "id": "img_back_bottom",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 386,
+                "w": 255,
+                "h": 214
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 1,
+          "samples": [
+            {
+              "id": "edit_char_name",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 100,
+                "w": 88,
+                "h": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIMultiText",
+          "count": 1,
+          "samples": [
+            {
+              "id": "multitxt",
+              "desc": "나이트쉐도우 캐릭터를 생성할 수 있는 조건을 만족하였습니다.\n        나이트쉐도우 캐릭터를 생성하여 육성하십시오.",
+              "size": {
+                "x": 20,
+                "y": 45,
+                "w": 187,
+                "h": 62
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exchage",
+      "file": "ExChange.xml",
+      "size": {
+        "w": 216,
+        "h": 452
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 20,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 15,
+          "samples": [
+            {
+              "id": "img_back",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 452
+              }
+            },
+            {
+              "id": "img_info_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 478,
+                "w": 7,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_info_m",
+              "desc": "",
+              "size": {
+                "x": 10,
+                "y": 478,
+                "w": 2,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_info_r",
+              "desc": "",
+              "size": {
+                "x": 15,
+                "y": 478,
+                "w": 7,
+                "h": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 4,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 184,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_ready",
+              "desc": "준비완료",
+              "size": {
+                "x": 11,
+                "y": 420,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_exchange",
+              "desc": "교환",
+              "size": {
+                "x": 76,
+                "y": 420,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 141,
+                "y": 420,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 1,
+          "samples": [
+            {
+              "id": "scrollbar",
+              "desc": "",
+              "size": {
+                "x": 195,
+                "y": 249,
+                "w": 9,
+                "h": 137
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flower_tree",
+      "file": "FlowerTree.xml",
+      "size": {
+        "w": 164,
+        "h": 213
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 16,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 13,
+          "samples": [
+            {
+              "id": "img_title_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_title_r",
+              "desc": "",
+              "size": {
+                "x": 82,
+                "y": 0,
+                "w": 82,
+                "h": 22
+              }
+            },
+            {
+              "id": "img_gap_l",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 22,
+                "w": 82,
+                "h": 4
+              }
+            },
+            {
+              "id": "img_gap_r",
+              "desc": "",
+              "size": {
+                "x": 82,
+                "y": 22,
+                "w": 82,
+                "h": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 3,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 129,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_ok",
+              "desc": "개화돕기",
+              "size": {
+                "x": 7,
+                "y": 182,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_refresh",
+              "desc": "갱신",
+              "size": {
+                "x": 94,
+                "y": 182,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fortune",
+      "file": "Fortune.xml",
+      "size": {
+        "w": 410,
+        "h": 410
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 14,
+      "controlTypes": [
+        {
+          "type": "UIImageBox",
+          "count": 7,
+          "samples": [
+            {
+              "id": "ibox_card0",
+              "desc": "",
+              "size": {
+                "x": 33,
+                "y": 111,
+                "w": 32,
+                "h": 32
+              }
+            },
+            {
+              "id": "ibox_card1",
+              "desc": "",
+              "size": {
+                "x": 85,
+                "y": 103,
+                "w": 32,
+                "h": 32
+              }
+            },
+            {
+              "id": "ibox_card2",
+              "desc": "",
+              "size": {
+                "x": 137,
+                "y": 95,
+                "w": 32,
+                "h": 32
+              }
+            },
+            {
+              "id": "ibox_card3",
+              "desc": "",
+              "size": {
+                "x": 189,
+                "y": 95,
+                "w": 32,
+                "h": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 2,
+          "samples": [
+            {
+              "id": "img_back",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 410,
+                "h": 410
+              }
+            },
+            {
+              "id": "img_highlight",
+              "desc": "",
+              "size": {
+                "x": 179,
+                "y": 67,
+                "w": 231,
+                "h": 164
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 2,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 390,
+                "y": 4,
+                "w": 16,
+                "h": 16
+              }
+            },
+            {
+              "id": "btn_ok",
+              "desc": "확인",
+              "size": {
+                "x": 149,
+                "y": 377,
+                "w": 108,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "포츈 코스튬",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 410,
+                "h": 37
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "lb_description",
+              "desc": "",
+              "size": {
+                "x": 15,
+                "y": 201,
+                "w": 368,
+                "h": 159
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 1,
+          "samples": [
+            {
+              "id": "sb_description",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 2,
+                "w": 10,
+                "h": 156
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamble",
+      "file": "Gameble.xml",
+      "size": {
+        "w": 255,
+        "h": 213
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 18,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 14,
+          "samples": [
+            {
+              "id": "img_back_top",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 255,
+                "h": 148
+              }
+            },
+            {
+              "id": "img_back_mid",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 149,
+                "w": 255,
+                "h": 17
+              }
+            },
+            {
+              "id": "img_back_bot",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 167,
+                "w": 255,
+                "h": 46
+              }
+            },
+            {
+              "id": "img_select",
+              "desc": "",
+              "size": {
+                "x": 92,
+                "y": 262,
+                "w": 45,
+                "h": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 4,
+          "samples": [
+            {
+              "id": "btn_start",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 167,
+                "w": 113,
+                "h": 29
+              }
+            },
+            {
+              "id": "btn_stop",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 193,
+                "w": 113,
+                "h": 29
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "",
+              "size": {
+                "x": 135,
+                "y": 193,
+                "w": 113,
+                "h": 29
+              }
+            },
+            {
+              "id": "btn_ready",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 167,
+                "w": 113,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guild",
+      "file": "Guild.xml",
+      "size": {
+        "w": 216,
+        "h": 284
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 48,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 27,
+          "samples": [
+            {
+              "id": "img_back_top",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 33
+              }
+            },
+            {
+              "id": "img_back_mid0",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 31,
+                "w": 216,
+                "h": 2
+              }
+            },
+            {
+              "id": "img_back_mid0",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 35,
+                "w": 216,
+                "h": 2
+              }
+            },
+            {
+              "id": "img_manager_top",
+              "desc": "",
+              "size": {
+                "x": 36,
+                "y": 69,
+                "w": 216,
+                "h": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 9,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 184,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_ok",
+              "desc": "확인",
+              "size": {
+                "x": 250,
+                "y": 255,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 350,
+                "y": 255,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_exit",
+              "desc": "닫기",
+              "size": {
+                "x": 450,
+                "y": 255,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 5,
+          "samples": [
+            {
+              "id": "lb_guild_desc",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 28,
+                "w": 190,
+                "h": 190
+              }
+            },
+            {
+              "id": "lb_member_list",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 63,
+                "w": 190,
+                "h": 88
+              }
+            },
+            {
+              "id": "lb_applicant_list",
+              "desc": "",
+              "size": {
+                "x": 8,
+                "y": 63,
+                "w": 176,
+                "h": 88
+              }
+            },
+            {
+              "id": "lb_user_info",
+              "desc": "",
+              "size": {
+                "x": 270,
+                "y": 178,
+                "w": 140,
+                "h": 70
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 5,
+          "samples": [
+            {
+              "id": "sb_guild_desc",
+              "desc": "",
+              "size": {
+                "x": 190,
+                "y": 0,
+                "w": 9,
+                "h": 190
+              }
+            },
+            {
+              "id": "sb_member_list",
+              "desc": "",
+              "size": {
+                "x": 190,
+                "y": 0,
+                "w": 9,
+                "h": 190
+              }
+            },
+            {
+              "id": "sb_applicant_list",
+              "desc": "",
+              "size": {
+                "x": 176,
+                "y": 0,
+                "w": 9,
+                "h": 190
+              }
+            },
+            {
+              "id": "sb_user_info",
+              "desc": "",
+              "size": {
+                "x": 270,
+                "y": 178,
+                "w": 9,
+                "h": 70
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 1,
+          "samples": [
+            {
+              "id": "edit_guildname",
+              "desc": "",
+              "size": {
+                "x": 100,
+                "y": 225,
+                "w": 90,
+                "h": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIComboBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "cbb_corps",
+              "desc": "",
+              "size": {
+                "x": 218,
+                "y": 98,
+                "w": 143,
+                "h": 22
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "file": "SystemMenu.xml",
+      "size": {
+        "w": 178,
+        "h": 191
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 9,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 5,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "나가기",
+              "size": {
+                "x": 153,
+                "y": 4,
+                "w": 16,
+                "h": 16
+              }
+            },
+            {
+              "id": "btn_option",
+              "desc": "옵션",
+              "size": {
+                "x": 9,
+                "y": 44,
+                "w": 78,
+                "h": 22
+              }
+            },
+            {
+              "id": "btn_help",
+              "desc": "도움말",
+              "size": {
+                "x": 91,
+                "y": 44,
+                "w": 78,
+                "h": 22
+              }
+            },
+            {
+              "id": "btn_help",
+              "desc": "서버선택창으로",
+              "size": {
+                "x": 9,
+                "y": 130,
+                "w": 160,
+                "h": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 3,
+          "samples": [
+            {
+              "id": "",
+              "desc": "시스템 메뉴",
+              "size": {
+                "x": 55,
+                "y": 18,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "접속중인 서버",
+              "size": {
+                "x": 55,
+                "y": 82,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "str_server",
+              "desc": "접속중인 서버",
+              "size": {
+                "x": 55,
+                "y": 99,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 178,
+                "h": 191
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "file": "WildPetInfo.xml",
+      "size": {
+        "w": 273,
+        "h": 401
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 10,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 8,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 273,
+                "h": 37
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 37,
+                "w": 273,
+                "h": 354
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 391,
+                "w": 273,
+                "h": 10
+              }
+            },
+            {
+              "id": "",
+              "desc": "AI 설정창",
+              "size": {
+                "x": 273,
+                "y": 118,
+                "w": 124,
+                "h": 282
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "펫 정보",
+              "size": {
+                "x": 107,
+                "y": 15,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "UITab",
+          "count": 1,
+          "samples": [
+            {
+              "id": "tab_normal",
+              "desc": "",
+              "size": {
+                "x": 10,
+                "y": 41,
+                "w": 21,
+                "h": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "file": "login.xml",
+      "size": {
+        "w": 183,
+        "h": 116
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 10,
+      "controlTypes": [
+        {
+          "type": "UIText",
+          "count": 3,
+          "samples": [
+            {
+              "id": "",
+              "desc": "로그인",
+              "size": {
+                "x": 35,
+                "y": 5,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "아이디",
+              "size": {
+                "x": 9,
+                "y": 38,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "패스워드",
+              "size": {
+                "x": 9,
+                "y": 57,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 3,
+          "samples": [
+            {
+              "id": "edit_id",
+              "desc": "",
+              "size": {
+                "x": 75,
+                "y": 37,
+                "w": 91,
+                "h": 15
+              }
+            },
+            {
+              "id": "edit_pw",
+              "desc": "",
+              "size": {
+                "x": 75,
+                "y": 56,
+                "w": 91,
+                "h": 15
+              }
+            },
+            {
+              "id": "edit_security",
+              "desc": "",
+              "size": {
+                "x": 75,
+                "y": 56,
+                "w": 91,
+                "h": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 2,
+          "samples": [
+            {
+              "id": "btn_ok",
+              "desc": "접속",
+              "size": {
+                "x": 38,
+                "y": 88,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "나가기",
+              "size": {
+                "x": 105,
+                "y": 88,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 183,
+                "h": 116
+              }
+            }
+          ]
+        },
+        {
+          "type": "UICheck",
+          "count": 1,
+          "samples": [
+            {
+              "id": "chk_save",
+              "desc": "저장",
+              "size": {
+                "x": 10,
+                "y": 74,
+                "w": 13,
+                "h": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SelectCharacter",
+      "file": "SelectCharacter.xml",
+      "size": {
+        "w": 504,
+        "h": 22
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 11,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 6,
+          "samples": [
+            {
+              "id": "btn_back",
+              "desc": "이전",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_ok",
+              "desc": "게임 시작",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_create",
+              "desc": "캐릭터 생성",
+              "size": {
+                "x": 120,
+                "y": 0,
+                "w": 100,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_del_cancel",
+              "desc": "삭제/취소",
+              "size": {
+                "x": 240,
+                "y": 0,
+                "w": 100,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 4,
+          "samples": [
+            {
+              "id": "img_char_info_background",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 68
+              }
+            },
+            {
+              "id": "img_char_info_hp",
+              "desc": "",
+              "size": {
+                "x": 9,
+                "y": 25,
+                "w": 100,
+                "h": 8
+              }
+            },
+            {
+              "id": "img_char_info_mp",
+              "desc": "",
+              "size": {
+                "x": 9,
+                "y": 39,
+                "w": 100,
+                "h": 8
+              }
+            },
+            {
+              "id": "img_char_info_exp",
+              "desc": "",
+              "size": {
+                "x": 9,
+                "y": 53,
+                "w": 100,
+                "h": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIMultiText",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "나이트쉐도우 캐릭터를 생성할 수 있는 조건을 만족하였습니다.\n        나이트쉐도우 캐릭터를 생성하여 육성하십시오.",
+              "size": {
+                "x": 20,
+                "y": 45,
+                "w": 187,
+                "h": 62
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SelectCharacter_Next_Prev_Btn",
+      "file": "SelectCharacter_Next_Prv_Btn.xml",
+      "size": {
+        "w": 504,
+        "h": 22
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 2,
+      "controlTypes": [
+        {
+          "type": "UIButton",
+          "count": 2,
+          "samples": [
+            {
+              "id": "btn_nex",
+              "desc": "",
+              "size": {
+                "x": 150,
+                "y": 0,
+                "w": 100,
+                "h": 32
+              }
+            },
+            {
+              "id": "btn_prev",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SelectServer",
+      "file": "SelectServer.xml",
+      "size": {
+        "w": 416,
+        "h": 236
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 21,
+      "controlTypes": [
+        {
+          "type": "UIText",
+          "count": 8,
+          "samples": [
+            {
+              "id": "",
+              "desc": "서버 선택",
+              "size": {
+                "x": 25,
+                "y": 5,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "서버군",
+              "size": {
+                "x": 20,
+                "y": 143,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "서버",
+              "size": {
+                "x": 218,
+                "y": 143,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "♣초보지원 서버란?",
+              "size": {
+                "x": 25,
+                "y": 40,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 6,
+          "samples": [
+            {
+              "id": "img_back_top0",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 416,
+                "h": 28
+              }
+            },
+            {
+              "id": "img_back_top1",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 28,
+                "w": 416,
+                "h": 141
+              }
+            },
+            {
+              "id": "img_back_top2",
+              "desc": "",
+              "size": {
+                "x": 13,
+                "y": 29,
+                "w": 390,
+                "h": 109
+              }
+            },
+            {
+              "id": "img_back_mid0",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 141,
+                "w": 416,
+                "h": 29
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 3,
+          "samples": [
+            {
+              "id": "btn_ok",
+              "desc": "접속",
+              "size": {
+                "x": 274,
+                "y": 317,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "이전",
+              "size": {
+                "x": 208,
+                "y": 317,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_exit",
+              "desc": "종료",
+              "size": {
+                "x": 340,
+                "y": 317,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 2,
+          "samples": [
+            {
+              "id": "lb_server_group",
+              "desc": "",
+              "size": {
+                "x": 14,
+                "y": 159,
+                "w": 183,
+                "h": 150
+              }
+            },
+            {
+              "id": "lb_server",
+              "desc": "",
+              "size": {
+                "x": 214,
+                "y": 159,
+                "w": 183,
+                "h": 150
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIScrollBar",
+          "count": 2,
+          "samples": [
+            {
+              "id": "lb_group_scroll",
+              "desc": "",
+              "size": {
+                "x": 197,
+                "y": 159,
+                "w": 9,
+                "h": 150
+              }
+            },
+            {
+              "id": "lb_group_scroll",
+              "desc": "",
+              "size": {
+                "x": 393,
+                "y": 159,
+                "w": 9,
+                "h": 150
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talk",
+      "file": "Talk.xml",
+      "size": {
+        "w": 300,
+        "h": 269
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 43,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 27,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 25
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 40,
+                "y": 0,
+                "w": 220,
+                "h": 25
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 260,
+                "y": 0,
+                "w": 40,
+                "h": 25
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 25,
+                "w": 40,
+                "h": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 12,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "",
+              "size": {
+                "x": 272,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_mem_list",
+              "desc": "",
+              "size": {
+                "x": 277,
+                "y": 28,
+                "w": 13,
+                "h": 13
+              }
+            },
+            {
+              "id": "btn_color",
+              "desc": "",
+              "size": {
+                "x": 278,
+                "y": 244,
+                "w": 13,
+                "h": 13
+              }
+            },
+            {
+              "id": "btn_color",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 15,
+                "h": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 2,
+          "samples": [
+            {
+              "id": "",
+              "desc": "타이틀",
+              "size": {
+                "x": 25,
+                "y": 6,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "대화 참가 인원 (%d)",
+              "size": {
+                "x": 25,
+                "y": 28,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIListBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "lb_talk",
+              "desc": "",
+              "size": {
+                "x": 6,
+                "y": 44,
+                "w": 277,
+                "h": 190
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 1,
+          "samples": [
+            {
+              "id": "edit_input",
+              "desc": "",
+              "size": {
+                "x": 10,
+                "y": 244,
+                "w": 317,
+                "h": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teleport",
+      "file": "Teleport.xml",
+      "size": {
+        "w": 472,
+        "h": 160
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 21,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 17,
+          "samples": [
+            {
+              "id": "",
+              "desc": "BG",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 472,
+                "h": 160
+              }
+            },
+            {
+              "id": "",
+              "desc": "SelectBar",
+              "size": {
+                "x": 20,
+                "y": 68,
+                "w": 418,
+                "h": 15
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 13
+              }
+            },
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 13,
+                "y": 0,
+                "w": 446,
+                "h": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 4,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "나가기",
+              "size": {
+                "x": 442,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_move",
+              "desc": "이동",
+              "size": {
+                "x": 268,
+                "y": 133,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_save",
+              "desc": "저장",
+              "size": {
+                "x": 334,
+                "y": 133,
+                "w": 63,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_cancel",
+              "desc": "취소",
+              "size": {
+                "x": 400,
+                "y": 133,
+                "w": 63,
+                "h": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "file": "TextBox.xml",
+      "size": {
+        "w": 500,
+        "h": 500
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 1,
+      "controlTypes": [
+        {
+          "type": "UITextBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 100,
+                "y": 50,
+                "w": 154,
+                "h": 155
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "file": "_TEST.xml",
+      "size": {
+        "w": 500,
+        "h": 500
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 8,
+      "controlTypes": [
+        {
+          "type": "UICheck",
+          "count": 1,
+          "samples": [
+            {
+              "id": "btn_tab_search",
+              "desc": "",
+              "size": {
+                "x": 13,
+                "y": 2,
+                "w": 101,
+                "h": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIEdit",
+          "count": 1,
+          "samples": [
+            {
+              "id": "edit_name",
+              "desc": "",
+              "size": {
+                "x": 22,
+                "y": 17,
+                "w": 150,
+                "h": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIList",
+          "count": 1,
+          "samples": [
+            {
+              "id": "list_event_name",
+              "desc": "",
+              "size": {
+                "x": 14,
+                "y": 289,
+                "w": 222,
+                "h": 135
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 1,
+          "samples": [
+            {
+              "id": "text_evt_name",
+              "desc": "",
+              "size": {
+                "x": 14,
+                "y": 38,
+                "w": 222,
+                "h": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "UITextBox",
+          "count": 1,
+          "samples": [
+            {
+              "id": "tb_event_desc",
+              "desc": "",
+              "size": {
+                "x": 18,
+                "y": 98,
+                "w": 218,
+                "h": 180
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIArray",
+          "count": 1,
+          "samples": [
+            {
+              "id": "day_array",
+              "desc": "",
+              "size": {
+                "x": 18,
+                "y": 88,
+                "w": 655,
+                "h": 405
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIImage",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "UISpinButton",
+          "count": 1,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warehouse",
+      "file": "WareHouse.xml",
+      "size": {
+        "w": 216,
+        "h": 392
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "controlTotal": 25,
+      "controlTypes": [
+        {
+          "type": "UIImage",
+          "count": 15,
+          "samples": [
+            {
+              "id": "",
+              "desc": "",
+              "size": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 24
+              }
+            },
+            {
+              "id": "",
+              "desc": "back_mid",
+              "size": {
+                "x": 0,
+                "y": 24,
+                "w": 216,
+                "h": 330
+              }
+            },
+            {
+              "id": "",
+              "desc": "back_bottom",
+              "size": {
+                "x": 0,
+                "y": 354,
+                "w": 216,
+                "h": 36
+              }
+            },
+            {
+              "id": "",
+              "desc": "line",
+              "size": {
+                "x": 0,
+                "y": 390,
+                "w": 216,
+                "h": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIButton",
+          "count": 6,
+          "samples": [
+            {
+              "id": "btn_close",
+              "desc": "close",
+              "size": {
+                "x": 184,
+                "y": 4,
+                "w": 14,
+                "h": 14
+              }
+            },
+            {
+              "id": "btn_nas_in",
+              "desc": "입금",
+              "size": {
+                "x": 51,
+                "y": 362,
+                "w": 51,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_nas_out",
+              "desc": "출금",
+              "size": {
+                "x": 51,
+                "y": 362,
+                "w": 51,
+                "h": 21
+              }
+            },
+            {
+              "id": "btn_take",
+              "desc": "보관",
+              "size": {
+                "x": 105,
+                "y": 362,
+                "w": 51,
+                "h": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "UIText",
+          "count": 4,
+          "samples": [
+            {
+              "id": "",
+              "desc": "창고",
+              "size": {
+                "x": 25,
+                "y": 5,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "입금금액",
+              "size": {
+                "x": 17,
+                "y": 312,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "보관료",
+              "size": {
+                "x": 17,
+                "y": 335,
+                "w": 0,
+                "h": 0
+              }
+            },
+            {
+              "id": "",
+              "desc": "확장기간 :",
+              "size": {
+                "x": 15,
+                "y": 26,
+                "w": 0,
+                "h": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+node_modules
+
+# Build outputs
+dist/
+public/dist/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+
+# Optional: local preview
+/.vite
+
+# Legacy and large assets (keep out of git history)
+legacy-assets/
+public/3rdparty/
+vendor/
+
+# cache/build
+.cache/
+
