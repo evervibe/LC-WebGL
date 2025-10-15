@@ -28,7 +28,7 @@ import type { SceneMetadata, UIWindowCatalog, UIWindowSummary } from './types';
 import { LegacyUIRuntime } from './ui/LegacyUIRuntime';
 import { Localization, guessWindowTitle } from './ui/Localization';
 
-const APP_VERSION = '1.0.0-alpha';
+const APP_VERSION = '2.0.0-alpha';
 
 const rootElement = document.querySelector<HTMLDivElement>('#app');
 
@@ -234,6 +234,7 @@ const uiListButtons = new Map<string, HTMLButtonElement>();
 const sceneLoader = new SceneLoader({
   dracoPath: '/3rdparty/draco/',
   ktx2Path: '/3rdparty/basis/',
+  renderer,
   onProgress: (progress) => {
     if (loadingMessageEl) {
       const percentage = (progress.ratio * 100).toFixed(0);

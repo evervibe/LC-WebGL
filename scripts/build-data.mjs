@@ -33,12 +33,24 @@ const parser = new XMLParser({
 const log = (...args) => console.log('[build-data]', ...args);
 
 async function ensurePrerequisites() {
-  const xmlExists = await fs.pathExists(xmlDir);
-  if (!xmlExists) {
-    throw new Error(`XML-Verzeichnis wurde nicht gefunden: ${xmlDir}`);
-  }
   await fs.ensureDir(outputDir);
   await fs.ensureDir(dataDir);
+  
+  const xmlExists = await fs.pathExists(xmlDir);
+  if (!xmlExists) {
+    // Check if we already have generated data
+    const uiWindowsExists = await fs.pathExists(path.join(outputDir, 'ui-windows.json'));
+    const scenesExists = await fs.pathExists(path.join(outputDir, 'scenes.json'));
+    
+    if (uiWindowsExists && scenesExists) {
+      log('⚠️  XML-Verzeichnis nicht gefunden, aber generierte Dateien existieren bereits.');
+      log('   Überspringe Daten-Generierung. Verwende vorhandene Dateien.');
+      return false; // Signal to skip regeneration
+    }
+    
+    throw new Error(`XML-Verzeichnis wurde nicht gefunden: ${xmlDir}\nBitte stelle sicher, dass das Legacy-Client XML-Verzeichnis verfügbar ist.`);
+  }
+  return true; // Continue with regeneration
 }
 
 function sanitiseNumber(value) {
@@ -161,7 +173,29 @@ async function buildSceneCatalog(uiCatalog) {
 
 async function main() {
   try {
-    await ensurePrerequisites();
+    const shouldRegenerate = await ensurePrerequisites();
+    
+    if (!shouldRegenerate) {
+      log('✓ Verwende vorhandene Daten-Dateien.');
+      
+      // Still copy locales if they exist
+      const localeDir = path.join(dataDir, 'locales');
+      const targetLocaleDir = path.join(outputDir, 'locales');
+      if (await fs.pathExists(localeDir)) {
+        await fs.ensureDir(targetLocaleDir);
+        const localeFiles = await globby('*.json', { cwd: localeDir });
+        if (localeFiles.length > 0) {
+          await Promise.all(
+            localeFiles.map((file) =>
+              fs.copyFile(path.join(localeDir, file), path.join(targetLocaleDir, file)),
+            ),
+          );
+          log(`✓ ${localeFiles.length} Lokalisierungsdateien kopiert.`);
+        }
+      }
+      return;
+    }
+    
     const xmlFiles = await globby('*.xml', { cwd: xmlDir });
     if (!xmlFiles.length) {
       log('Keine XML-Dateien gefunden. Abbruch.');
